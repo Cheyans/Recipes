@@ -1,0 +1,48 @@
+\title{My Favorite Recipes}
+\author{Cheyan Setayesh}
+
+\documentclass[12pt]{book}
+\usepackage[nonumber, index]{cuisine}
+\usepackage{enumitem}
+\usepackage{gensymb}
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+
+\begin{document}
+\maketitle
+\begin{minipage}{\textwidth}
+\vfill
+\tableofcontents
+\end{minipage}
+
+\chapter{Fish}
+\newpage
+
+\begin{recipe}{Greek Yogurt \& Herb Crusted Salmon}{1 portion}{40 minutes}\freeform Cooking Utensils
+\begin{enumerate}[label=\theenumi, topsep=2pt, itemsep=-1ex, leftmargin=20ex, labelsep=19ex]
+	\item Baking Sheet (for cooking on)
+	\item Pestle \& Mortar (for grinding ingredients)
+	\item Spoon (for scooping yogurt)
+	\item Brush or Spoon (for spreading sauce)
+	\item Grater (for creating lemon zest)
+\end{enumerate}
+\vspace{0.1cm}
+
+\freeform Ingredients
+\ingredient[1]{(8 ounce)}{Salmon fillet}
+\ingredient{to taste}{Salt}
+\ingredient[3]{tbsp}{Vegetable oil}Lay the salmon on a baking sheet and oil it. Salt the top of the salmon as desired.
+\ingredient[3]{stems}{Fresh Tarragon}
+\ingredient[3]{stems}{Fresh Cilantro}
+\ingredient[1]{clove}{Garlic}
+Peel the garlic and grind it with the tarragon and cilantro in a pestle \& mortar.
+\ingredient[2]{tbsp}{Greek yogurt}
+\ingredient[\fr12]{}{Fresh lemon}
+Mix in the yogurt, the lemon juice from half of the lemon, and lemon zest as desired into the ground herbs. Keep the other lemon piece on the side to compliment the fish when eating. Once fully mixed, using the brush or spoon, layer the yogurt herb mix onto the top of the salmon.
+\ingredient[1]{pinch}{Cayenne pepper}
+Evenly add the cayenne pepper on top of the yogurt herb mix covered salmon. Bake the salmon at 400\degree \\for 30 minutes. Serve with a side of rice and vegetables with the quarter lemon saved previously.\end{recipe}
+
+\end{document}
+This is never printed
